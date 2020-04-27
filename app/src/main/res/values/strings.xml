@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MASAR</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="eachDistinationPhase">لِكُلٍّ وِجْهَةٌ مَسار</string>
+    <string name="longPhase">دلوقتي تقدر تعرف معلومات
+ عن مباني أثرية  في مصر ممكن
+ تكون كل يوم بتعدي عليها
+</string>
+    <string name="thirdPhrase">وتقدر تعرف مكانها وتزورها</string>
+    <string name="discoverPhrase"> استكشف </string>
+    <string name="buildings">مباني مصر</string>
+    <string name="location">الموقع</string>
+</resources>

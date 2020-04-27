@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:icon="@drawable/ic_address"
+        android:title="Cities"
+        app:showAsAction="ifRoom"
+        android:id="@+id/cities"
+        />
+    <item
+        android:icon="@drawable/ic_unstar_it"
+        android:title="Favourite"
+        app:showAsAction="ifRoom"
+        android:id="@+id/favourities"/>
+    <item
+        android:icon="@drawable/ic_question"
+        android:title="Informations"
+        app:showAsAction="ifRoom"
+        android:id="@+id/questions"
+        />
+
+</menu>

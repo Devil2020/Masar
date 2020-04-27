@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/transparent"
+    tools:context=".ui.facbook.FacebookFragment">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="25dp"
+        android:paddingVertical="10dp"
+        >
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="1- Egypt Wanderers Page"
+                    android:gravity="center"
+                    android:textAppearance="@style/cairo_bold"
+                    android:fontFamily="@font/cairo_bold"
+                    android:textColor="@color/colorOfBackground"
+                    android:textSize="@dimen/textBig"
+                    android:id="@+id/text1"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="2- Save Cairo"
+                    android:gravity="center"
+                    android:textAppearance="@style/cairo_bold"
+                    android:fontFamily="@font/cairo_bold"
+                    android:textColor="@color/colorOfBackground"
+                    android:textSize="@dimen/textBig"
+                    android:id="@+id/text2"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="3- Save Alex"
+                    android:gravity="center"
+                    android:fontFamily="@font/cairo_bold"
+                    android:textColor="@color/colorOfBackground"
+                    android:textSize="@dimen/textBig"
+                    android:id="@+id/text3"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="4-  لا لهدم مبنى شيكوريل الأثرى ب الأسكندرية"
+                    android:gravity="center"
+                    android:textAppearance="@style/cairo_bold"
+                    android:autoSizeTextType="uniform"
+                    android:fontFamily="@font/cairo_bold"
+                    android:textColor="@color/colorOfBackground"
+                    android:textSize="@dimen/textBig"
+                    android:id="@+id/text4"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="5- Follow the Trip"
+                    android:gravity="center"
+                    android:textAppearance="@style/cairo_bold"
+                    android:fontFamily="@font/cairo_bold"
+                    android:textColor="@color/colorOfBackground"
+                    android:textSize="@dimen/textBig"
+                    android:id="@+id/text5"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="6 - Post Office"
+                    android:gravity="center"
+                    android:textAppearance="@style/cairo_bold"
+                    android:autoSizeTextType="uniform"
+                    android:fontFamily="@font/cairo_bold"
+                    android:textColor="@color/colorOfBackground"
+                    android:textSize="@dimen/textBig"
+                    android:id="@+id/text6"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="7 - Begin The Story"
+                    android:gravity="center"
+                    android:textAppearance="@style/cairo_bold"
+                    android:fontFamily="@font/cairo_bold"
+                    android:textColor="@color/colorOfBackground"
+                    android:textSize="@dimen/textBig"
+                    android:id="@+id/text7"
+                    />
+            </LinearLayout>
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>

@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#002B3C</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="cairo_bold"  parent="@android:style/TextAppearance.Large">
+        <item name="android:fontFamily">@font/cairo_bold</item>
+    </style>
+</resources>
